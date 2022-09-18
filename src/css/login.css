@@ -1,0 +1,54 @@
+.back-form {
+    background-color: #083979;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 200px;
+    width: 305px;
+    height: 333px;
+    padding-top: 29px
+}
+
+.formulario {
+    width: 250px;
+    text-align: center;
+}
+
+.teste2 {
+   text-align: center;
+}
+
+.logo {
+    align-items: center;
+    border: 2px solid red;
+}
+
+body, html{
+    background-color: #4a85d1;
+}
+
+.text-label {
+    padding-top: 19px;
+    padding-left: 4px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+h5 {
+    color: rgb(10, 180, 143);
+}
+
+.botao {
+    margin-top: 10px;
+}
+
+.separa {
+    align-items: center;
+    margin-top: 16px;
+    color: white;
+}
+
+
+/* .container-form {
+    margin-top: -10px;
+    border: 2px solid red;
+} */

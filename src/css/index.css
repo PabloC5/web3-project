@@ -1,7 +1,16 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
+} */
+
+body {
+  height: 100%;
 }
+
+/* teste footer */
+
+/* teste footer */
+
 
 a {
   color: #fff;
@@ -63,9 +72,9 @@ main {
 }
 
 @media (max-width: 999px) {
-  body {
+  /* body {
     overflow-x: hidden;
-  }
+  } */
   .nav-list {
     position: absolute;
     top: 8vh;
@@ -89,7 +98,8 @@ main {
   }
 
   .formPesquisa {
-    width: 150px
+    width: 150px;
+    border-radius: 5px;
   }
 }
 
@@ -124,3 +134,33 @@ main {
   height: 28px;
   margin-bottom: 3px;
 }
+
+.formPesquisa {
+  border-radius: 5px;
+  border: none;
+}
+
+.teste {
+  width: 700px;
+  height: 700px;
+}
+
+
+footer{
+  height: 200px;
+  background-color: #C4C4C4;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+  background-color: blue;
+  color: #FFF;
+  width: 100%;
+  height: 100px;    
+  text-align: center;
+  line-height: 100px;
+} */

@@ -75,6 +75,7 @@ body {
     border-color: var(--default-color);
 }
 
+/* analisar amanhã ou hoje no caso */
 .container-login .formulario-login .input-login input[type="submit"] {
     background-color: var(--default-color);
     border: 0;

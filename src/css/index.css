@@ -9,9 +9,9 @@ opacity: 0.7;
 }
 
 .logo {
-font-size: 24px;
-text-transform: uppercase;
-letter-spacing: 4px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 a > img {
@@ -130,16 +130,12 @@ nav {
 
 footer{
   height: 200px;
-  background-color: #C4C4C4;
+  background-color: #306FAD;
   position: absolute;
   bottom: 0;
   width: 100%;
+  color: #fff;
 }
-
-/* .rodaPe{
-  text-align: center;
-  padding-top: 10px; 
-} */
 
 .testeRoda {
   width: 100%;

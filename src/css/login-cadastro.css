@@ -75,7 +75,15 @@ body {
     border-color: var(--default-color);
 }
 
-/* analisar amanhã ou hoje no caso */
+.botaoEntrar {
+    /* background-color: var(--default-color); */
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 150px;
+}
+
 .container-login .formulario-login .input-login input[type="submit"] {
     background-color: var(--default-color);
     border: 0;
@@ -103,7 +111,17 @@ body {
 
 .sigup {
     align-items: center;
-    margin-left: 65px;
+    margin-left: 107px;
+}
+
+.sigin {
+    text-decoration: none;
+    text-align: center;
+}
+
+.sigin a{
+    text-decoration: none;
+    color: var(--default-color);
 }
 
 .container-login .logo-img {

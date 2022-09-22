@@ -22,7 +22,15 @@
             </div>
             <ul class="nav-list">
                 <li class="testeListe"><a href="home.html">Home</a></li>
-                <li class="testeListe"><a href="perfil.html">Perfil</a></li>
+                <li class="nav-item dropdown">
+                  <a class="dropDPerfil nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Perfil
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="perfil.html">Ver meu perfil</a></li>
+                    <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                  </ul>
+                </li>
                 <button type="button" class="btn btn-outline-light upImageBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   <i class="fa fa-image"></i>
                   Postar
@@ -66,7 +74,7 @@
             <div class="col-8 offset-2">
                 <div class="card-deck">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="img/foto1.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/foto2.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -74,7 +82,7 @@
                         </div>
                     </div>
                     <div class="card mt-3">
-                        <img class="card-img-top" src="img/foto2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/foto1.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>

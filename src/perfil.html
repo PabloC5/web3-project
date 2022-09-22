@@ -25,7 +25,16 @@
             </div>
             <ul class="nav-list">
                 <li class="testeListe"><a href="home.html">Home</a></li>
-                <li class="testeListe"><a href="perfil.html">Perfil</a></li>
+                <li class="nav-item dropdown">
+                  <a class="dropDPerfil nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Perfil
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="perfil.html">Ver meu perfil</a></li>
+                    <li><a class="dropdown-item" href="login.html">Sair</a></li>
+                  </ul>
+                </li>
+                <!-- <li class="testeListe"><a href="perfil.html">Perfil</a></li> -->
                 <button type="button" class="btn btn-outline-light upImageBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   <i class="fa fa-image"></i>
                   Postar
